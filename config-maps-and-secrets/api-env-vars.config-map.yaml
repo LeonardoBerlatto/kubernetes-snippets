@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: api-env-vars
+data:
+  LOG_LEVEL: "debug"
+  PORT: "8080"
+  DB_HOST: "localhost"
+  DB_PORT: "5432"
+  DB_NAME: "our_bank"
+  APP_ENV: "development"
